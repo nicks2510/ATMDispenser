@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <script src="atmDispense.js"></script>
+    <title>Atm Money Dispenser</title>
+</head>
+
+<body>
+    <div>
+    <div class="boxed">
+        <p class="textAlign">ATM Money Dispenser</p>
+    </div>
+    <div class="containerStyle">
+        <div class="leftPane">
+            <h1 class="header1">Welcome to ATM</h1>
+            <div>
+                <label class="amountLabel">Enter the amount</label>
+                <input type="number" id="moneyInput" class="inputStyle" />
+            </div>
+            <button class="buttonStyle" onclick=getNotes()>Get Money</button>
+        </div>
+        <div class="rightPane">
+            <div id="moneyDispensed"></div>
+        </div>
+    </div>
+</div>
+
+</body>
+
+</html>
